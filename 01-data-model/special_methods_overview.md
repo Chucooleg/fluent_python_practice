@@ -25,3 +25,5 @@ https://docs.python.org/3/reference/datamodel.html
 |Reversed arithmetic operators| `__radd__`, `__rsub__`, `__rmul__`, `__rtruediv__`, `__rfloordiv__`, `__rmod__`, `__rdivmod__`, `__rpow__`|
 |Augmented assigment| `__iadd__`, `__isub__`, `__imul__`, `__itruediv__`, `__ifloordiv__`, `__imod__`, `__ipow__`|
 |Bitwise operators| `__invert__` ~, `__lshift__` <<, `__rshift__` >>, `__and__` &, `__or__` |, `__xor__` ^|
+|Reversed bitwise operators| `__rlshift__`, `__rrshift__`, `__rand__`, `__ror__` , `__rxor__` |
+|Augmented assignment bitwise operators| `__ilshift__`, `__irshift__`, `__iand__`, `__ior__` , `__ixor__` |
